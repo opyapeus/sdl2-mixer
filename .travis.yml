@@ -3,7 +3,7 @@ language: haskell
 sudo: required
 
 env:
-  - GHCVER=8.2.2 CABALVER=2.0.1.1 HAPPYVER=1.19.9 LD_LIBRARY_PATH=/usr/local/lib
+  - GHCVER=8.0.2 CABALVER=2.0.1.1 HAPPYVER=1.19.9 LD_LIBRARY_PATH=/usr/local/lib
 
 ghc:
   - $GHCVER
